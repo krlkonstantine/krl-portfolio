@@ -1,17 +1,15 @@
-.mainHome {
+.mainSkills {
     height: 100vh;
-    background-color: khaki;
+    background-color: cadetblue;
 }
 
-.greetingText {
+.skillsTitle {
     width: 400px;
     color: dimgray;
     background-color: rgba(171, 150, 4, 0.2);
 }
 
-.myPhoto {
-    width: 300px;
-    height: 400px;
-    background-color: rgba(171, 150, 4, 0.2);
+.ddddddddd {
+
 
 }
