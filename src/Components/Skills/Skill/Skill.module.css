@@ -1,0 +1,21 @@
+.navContainer {
+    display: flex;
+    border: 1px solid dimgray;
+    border-radius: 7px;
+    font-weight: 700;
+    width: 550px;
+    justify-content: space-between;
+}
+
+.NavBarLink{
+    font-size: 18px;
+    text-decoration: none;
+    color: dimgray;
+    padding-left: 7px;
+}
+.NavBarLink:hover{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+    padding-left: 7px;
+}
