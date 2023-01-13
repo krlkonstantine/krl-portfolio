@@ -1,15 +1,30 @@
 .mainSkills {
     height: 100vh;
-    background-color: cadetblue;
+    background-color: rgba(102, 131, 131, 0.71);
 }
+.skillsSpecialContainer {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid dimgray;
+
+}
+
 
 .skillsTitle {
-    width: 400px;
-    color: dimgray;
-    background-color: rgba(171, 150, 4, 0.2);
+    color: khaki;
+    font-size: 50px;
+    background-color: rgba(211, 211, 211, 0.34);
+    border-radius: 5px;
 }
 
-.ddddddddd {
-
-
+.skillsContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid;
 }

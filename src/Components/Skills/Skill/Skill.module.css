@@ -1,10 +1,28 @@
 .skillContainer {
+    border: 1px solid dimgray;
+    width: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.iconContainer{
+    background-color: darkgrey;
+}
+
+.skillIcon {
+    width: 100px;
+    height: auto;
+}
+
+.skillTitle{
+    color: dimgray;
+    font-size: 33px;
+    margin: 0;
+    text-align: center;
 
 }
 
-.skillImg{
-
-}
-.skillDescription{
-
+.skillDescription {
+text-align: center;
 }
