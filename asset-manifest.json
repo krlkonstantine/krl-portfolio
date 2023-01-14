@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/krl-portfolio/static/css/main.34fb4c70.css",
+    "main.js": "/krl-portfolio/static/js/main.0f1a0dba.js",
+    "static/js/787.0d73afc2.chunk.js": "/krl-portfolio/static/js/787.0d73afc2.chunk.js",
+    "index.html": "/krl-portfolio/index.html",
+    "main.34fb4c70.css.map": "/krl-portfolio/static/css/main.34fb4c70.css.map",
+    "main.0f1a0dba.js.map": "/krl-portfolio/static/js/main.0f1a0dba.js.map",
+    "787.0d73afc2.chunk.js.map": "/krl-portfolio/static/js/787.0d73afc2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34fb4c70.css",
+    "static/js/main.0f1a0dba.js"
+  ]
+}
