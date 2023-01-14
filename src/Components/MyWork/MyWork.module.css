@@ -1,0 +1,34 @@
+.mainContainer {
+    background-color: rgba(128, 128, 0, 0.22);
+    height: 100vh;
+}
+
+.worksCategoryContainer {
+    padding-top: 15px;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid dimgray;
+}
+
+
+.workCategoryTitle {
+    margin: 0;
+    font-size: 45px;
+    color: dimgray;
+    background-color: rgba(171, 150, 4, 0.2);
+}
+
+.workContainer {
+    width: 100%;
+    margin-top: 10px;
+    background-color: lightgrey;
+    border: 1px solid dimgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
