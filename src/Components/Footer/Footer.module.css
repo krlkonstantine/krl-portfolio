@@ -1,5 +1,5 @@
 .footerContainer {
-    height: 20vh;
+    min-height: 20vh;
     background-color: rgba(102, 131, 131, 0.71);
 }
 
@@ -29,8 +29,7 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly;
-    width: 50%;
-    height: 40px;
+    min-width: 30%;
 }
 
 .sNetworksImgs {

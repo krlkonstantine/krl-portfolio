@@ -1,6 +1,6 @@
 .mainSkills {
-    height: 100vh;
-    max-height: 140vh;
+    /*min-height: 100vh;*/
+    padding-bottom: 50px;
     background-color: rgba(102, 131, 131, 0.71);
 }
 

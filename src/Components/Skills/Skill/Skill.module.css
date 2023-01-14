@@ -6,7 +6,8 @@
     flex-direction: column;
     align-items: center;
 }
-.iconContainer{
+
+.iconContainer {
     background-color: darkgrey;
 }
 
@@ -15,7 +16,9 @@
     height: auto;
 }
 
-.skillTitle{
+.skillTitle {
+    box-sizing: border-box;
+    padding: 5px;
     color: dimgray;
     font-size: 33px;
     margin: 0;
@@ -24,5 +27,8 @@
 }
 
 .skillDescription {
-text-align: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 5px;
+
 }
