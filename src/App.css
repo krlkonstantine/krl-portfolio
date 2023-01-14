@@ -1,4 +1,6 @@
-.App {
+.skillsAndWorks {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 

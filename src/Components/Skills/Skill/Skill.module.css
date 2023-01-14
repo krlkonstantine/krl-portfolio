@@ -1,6 +1,6 @@
 .skillContainer {
     border: 1px solid dimgray;
-    width: 160px;
+    width: 140px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

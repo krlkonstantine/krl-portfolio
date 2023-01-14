@@ -1,5 +1,6 @@
 .mainSkills {
     height: 100vh;
+    max-height: 140vh;
     background-color: rgba(102, 131, 131, 0.71);
 }
 
