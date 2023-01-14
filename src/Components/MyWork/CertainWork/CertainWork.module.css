@@ -1,8 +1,8 @@
 .certainWorkContainer {
-    width: 350px;
-    display: flex;
+    width: 315px;
+    /*display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;*/
     border: 1px solid dimgray;
     border-radius: 5px;
     margin: 15px 0;
@@ -10,14 +10,15 @@
 
 .iconContainer {
     position: relative;
-    width: 70%
+    width: 100%
 }
 
 .certainWorkIcon {
     width: 100%;
     height: auto;
 }
-.watchWorkBtn{
+
+.watchWorkBtn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,20 +31,23 @@
     border: none;
     cursor: pointer;
     border-radius: 5px;
+}
 
-}.watchWorkBtn:hover {
-     background-color: #555;
+.watchWorkBtn:hover {
+    background-color: #555;
     color: khaki;
- }
+}
 
 .certainWorkTitle {
     color: dimgray;
     font-size: 33px;
     margin: 0;
-    text-align: center;
+    /*text-align: center;*/
 
 }
 
 .certainWorkDescription {
+    /*
     text-align: center;
+    */
 }

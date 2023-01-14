@@ -1,0 +1,38 @@
+.freelanceContainer {
+    height: 20vh;
+    background-color: rgba(102, 131, 131, 0.71);
+}
+
+.basicContainer{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid dimgray;
+}
+
+
+.greetingText {
+    color: #555;
+    font-size: 30px;
+    background-color: rgba(211, 211, 211, 0.34);
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.frrelanceBtn {
+    background-color: #555;
+    color: #e0ddc8;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 3px 8px;
+    font-weight: 500;
+}
+.frrelanceBtn:hover {
+    color: #e3df67;
+
+}

@@ -15,7 +15,6 @@ export const CertainWork = (props: WorksType) => {
                 <img className={certainWorkStyle.certainWorkIcon} src={props.workImg} alt={props.skillTitle}/>
                 <button className={certainWorkStyle.watchWorkBtn}>Watch</button>
             </div>
-
             <h3 className={certainWorkStyle.certainWorkTitle}>{props.skillTitle}</h3>
             <span className={certainWorkStyle.certainWorkDescription}>
                 {props.skillDescription} </span>

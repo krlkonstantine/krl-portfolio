@@ -9,11 +9,11 @@ export const MyWork = () => {
         {
             workImg: "https://livecodestream.dev/post/top-productivity-tools-for-react-developers/featured.jpg",
             workAddress: "https://www.google.com/search?rlz=1C1CHBD_ruRU969RU970&sxsrf=AJOqlzUxMAs-nGTb2ENHrk1PSEptCRuogg:1673672763248&q=Hi+there&spell=1&sa=X&ved=2ahUKEwju9Zf0pMb8AhVq_SoKHTU1CokQBSgAegQIHRAB&biw=1280&bih=881&dpr=1",
-            skillTitle: "Frondend",
+            skillTitle: "Frontend",
             skillDescription: "This project consisted in developing the frontend part of a website with the backend part prepared"
         },
         {
-            workImg: "https://miro.medium.com/max/1400/0*q2GpTch0ssNtwgha",
+            workImg: "https://contentstatic.techgig.com/photo/88751917/7-programming-languages-every-beginner-should-explore.jpg?35120",
             workAddress: "https://www.google.com/search?q=%D0%A0%D1%84%D0%BC%D1%83+%D1%84+%D1%82%D1%88%D1%83+%D0%B2%D1%84%D0%BD&rlz=1C1CHBD_ruRU969RU970&oq=%D0%A0%D1%84%D0%BC%D1%83+%D1%84+%D1%82%D1%88%D1%83+%D0%B2%D1%84%D0%BD&aqs=chrome..69i57j0i13i512l9.14956j1j9&sourceid=chrome&ie=UTF-8",
             skillTitle: "Company's 1st website",
             skillDescription: "I developed a website for a company which has no website before. This helped to increase profits by 149% in the first quarter!"
