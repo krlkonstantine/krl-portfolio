@@ -16,7 +16,7 @@ export const Contact = () => {
                               id="">
                     </textarea>
                 </form>
-                <button className={stylesContact.frrelanceBtn}>
+                <button type="submit" className={stylesContact.frrelanceBtn}>
                     Send Message
                 </button>
 

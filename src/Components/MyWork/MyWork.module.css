@@ -1,6 +1,6 @@
 .mainContainer {
-    background-color: rgba(128, 128, 0, 0.22);
-    padding-bottom: 50px;
+    background-color: #1f1f1f;
+    padding: 50px 0;
     /*min-height: 100vh;*/
 }
 
@@ -15,11 +15,22 @@
     box-sizing: border-box;
 }
 
-.workCategoryTitle {
-    margin: 20px;
-    font-size: 45px;
-    color: dimgray;
-    background-color: rgba(171, 150, 4, 0.2);
+.titleContainer {
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 13px;
+ }
+
+.titleContainer h2{
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+}
+.titleContainer h2 span{
+
+    color: #28e98c;
+
 }
 
 .workContainer {
@@ -29,7 +40,13 @@
     border: 1px solid dimgrey;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: space-evenly;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 793px) {
+    .workContainer{
+        justify-content: center
+    }
 }

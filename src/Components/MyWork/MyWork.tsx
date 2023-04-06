@@ -22,11 +22,11 @@ export const MyWork = () => {
     return (
         <div className={myWorkStyles.mainContainer}>
             <div className={myWorkStyles.worksCategoryContainer}>
-                <h2 className={myWorkStyles.workCategoryTitle}>
-                    My work
-                </h2>
+                <div className={myWorkStyles.titleContainer}>
+                    <h2> Featured <span>Projects</span> </h2>
+                </div>
                 <div className={myWorkStyles.workContainer}>
-                    {MyWorks.map( certainWork =>
+                    {MyWorks.map(certainWork =>
                         <CertainWork workImg={certainWork.workImg}
                                      workAddress={certainWork.workAddress}
                                      skillTitle={certainWork.skillTitle}
