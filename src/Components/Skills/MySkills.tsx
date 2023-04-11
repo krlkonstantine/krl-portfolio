@@ -1,6 +1,7 @@
 import React from 'react';
 import MySkillsContainer from './MySkills.module.css'
 import {Skill, SkillType} from "./Skill/Skill";
+import {CategoryTitle} from "../common/CategoryTitle/CategoryTitle";
 
 
 export const MySkills = () => {
@@ -25,9 +26,9 @@ export const MySkills = () => {
     return (
         <div className={MySkillsContainer.mainSkills}>
             <div className={MySkillsContainer.skillsSpecialContainer}>
-                <h2 className={MySkillsContainer.skillsTitle}>
-                    Skills
-                </h2>
+                <div className={MySkillsContainer.skillsTitle}>
+                    <CategoryTitle phraseBeginning={'My'} accentWord={'Advantages'}/>
+                </div>
                 <div className={MySkillsContainer.skillsContainer}>
                     {MySkills.map( skill =>
                         <Skill skillImg={skill.skillImg} skillTitle={skill.skillTitle} skillDescription={skill.skillDescription}/>

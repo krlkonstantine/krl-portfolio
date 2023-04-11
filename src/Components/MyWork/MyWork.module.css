@@ -15,9 +15,18 @@
     box-sizing: border-box;
 }
 
-.titleContainer {
+/*.titleContainer {
     font-family: 'Inter', sans-serif;
     margin-bottom: 13px;
+ }
+.titleContainer ::after {
+    content: '';
+    height: 1px;
+    width: 55px;
+    background-color: #28e98c;
+    position: absolute;
+    transform: translate(-50%, 75px);
+    left: 50%;
  }
 
 .titleContainer h2{
@@ -28,19 +37,17 @@
     margin: 0;
 }
 .titleContainer h2 span{
-
     color: #28e98c;
+}*/
 
-}
 
 .workContainer {
     width: 100%;
-    margin-top: 10px;
-    background-color: lightgrey;
+    margin-top: 15px;
     border: 1px solid dimgrey;
     display: flex;
     flex-wrap: wrap;
-    /*align-items: center;*/
+    align-items: flex-start;
     justify-content: space-evenly;
     box-sizing: border-box;
 }

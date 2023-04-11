@@ -1,13 +1,15 @@
 import React from 'react';
 import stylesContact from './Contact.module.css'
+import {CategoryTitle} from "../common/CategoryTitle/CategoryTitle";
 
 export const Contact = () => {
     return (
         <div className={stylesContact.contactContainer}>
             <div className={stylesContact.basicContainer}>
-                <div className={stylesContact.displText}>
+                {/*<div className={stylesContact.displText}>
                     Get in Touch
-                </div>
+                </div>*/}
+                <CategoryTitle phraseBeginning={"Let's Work"} accentWord={"Together"}/>
                 <form className={stylesContact.contactFormContainer} action="send">
                     <span className={stylesContact.sendMeAMessage}>Send me a message</span>
                     <input className={stylesContact.input} placeholder={"Name"} type="text"/>

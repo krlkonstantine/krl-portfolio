@@ -8,6 +8,7 @@
     height: 100%;
     width: 80%;
     margin: 0 auto;
+    padding: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,9 +18,8 @@
 
 .skillsTitle {
     color: khaki;
-    font-size: 50px;
-    background-color: rgba(211, 211, 211, 0.34);
     border-radius: 5px;
+    padding-bottom: 20px;
 }
 
 .skillsContainer{
