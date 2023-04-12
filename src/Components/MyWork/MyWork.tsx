@@ -1,5 +1,5 @@
 import React from 'react';
-import myWorkStyles from './MyWork.module.css'
+import myWorkStyles from './MyWork.module.scss'
 import {CertainWork, WorksType} from "./CertainWork/CertainWork";
 import {CategoryTitle} from "../common/CategoryTitle/CategoryTitle";
 import todoImage from "../../assets/img/ToDoList.jpg"
@@ -29,14 +29,6 @@ export const MyWork = () => {
             skillDescription: "I  developed a website for a company which has no website before. This helped to increase profits by 149% in the first quarter!"
         }
     ]
-
-    /*const todoListImg = {
-            backgroundImage: `úrl(${todoImage})`,
-    };
-
-    const socialNtwImg = {
-        backgroundImage: `url(${socialNetImage})`
-    }*/
 
     return (
         <div className={myWorkStyles.mainContainer}>

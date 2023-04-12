@@ -1,0 +1,32 @@
+@import "../styles/variables";
+
+.titleContainer {
+  font-family: $basicFont;
+  margin-bottom: 13px;
+
+  h2 {
+    font-size: 48px;
+    line-height: 60px;
+    color: $textColor;
+    font-weight: 300;
+    margin: 0;
+
+    &::after {
+      content: '';
+      height: 1px;
+      width: 55px;
+      background-color: $primaryColor;
+      position: absolute;
+      transform: translate(-50%, 75px);
+      left: 50%;
+    }
+
+    span {
+      color: $primaryColor;
+      font-weight: 300;
+
+    }
+  }
+
+
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import stylesTitle from './CategoryTitle.module.css'
+import stylesTitle from './CategoryTitle.module.scss'
 
 type CategoryTitlePropsType = {
     phraseBeginning: string
