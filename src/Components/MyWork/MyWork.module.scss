@@ -2,8 +2,8 @@
 @import "../common/styles/variables";
 
 .mainContainer {
-  background-color: $basicbgColor;
-  padding: 50px 0;
+  background-color: $basicBackgroungColor;
+  padding: 30px 0;
 
   .worksCategoryContainer {
     height: 100%;
@@ -12,13 +12,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid dimgray;
     box-sizing: border-box;
 
     .workContainer {
       width: 100%;
-      margin-top: 15px;
-      border: 1px solid dimgrey;
+      margin: 30px 0 30px 0 ;
       display: flex;
       flex-wrap: wrap;
       align-items: flex-start;

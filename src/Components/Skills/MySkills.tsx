@@ -1,5 +1,5 @@
 import React from 'react';
-import MySkillsContainer from './MySkills.module.css'
+import MySkillsContainer from './MySkills.module.scss'
 import {Skill, SkillType} from "./Skill/Skill";
 import {CategoryTitle} from "../common/CategoryTitle/CategoryTitle";
 

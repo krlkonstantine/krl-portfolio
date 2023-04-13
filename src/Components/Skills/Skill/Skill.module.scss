@@ -1,0 +1,55 @@
+@import "../../common/styles/variables";
+@import "../../common/styles/mixins";
+
+
+.skillContainer {
+  border: 1px solid $secondaryFontColor;
+  border-radius: 20px;
+  width: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+
+  &:hover {
+    border: 1px solid $primaryColor;
+    background-color: $basicBackgroungColor;
+  }
+
+  .iconContainer {
+    .skillIcon {
+      width: 100px;
+      height: auto;
+    }
+  }
+
+  .skillTitle {
+    box-sizing: border-box;
+    font-family: $basicFontFamily;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 5px;
+    color: $basicFontColor;
+    margin: 0;
+    text-align: center;
+
+    &:hover {
+      color: $primaryColor;
+    }
+
+  }
+
+  .skillDescription {
+    text-align: center;
+    box-sizing: border-box;
+    color: $secondaryFontColor;
+    margin-bottom: 14px;
+    line-height: 1.3;
+
+  }
+
+}
+
+
+
+

@@ -1,0 +1,34 @@
+@import "../common/styles/variables";
+
+.mainSkills {
+    padding-bottom: 30px;
+    background-color: $secondaryBackgroungColor;
+    .skillsSpecialContainer {
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .skillsTitle {
+            color: $basicFontColor;
+            border-radius: 5px;
+            padding-bottom: 20px;
+        }
+        .skillsContainer{
+            margin-top: 15px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+    }
+}
+
+
+
+
+
+
+

@@ -11,7 +11,7 @@
   font-family: $basicFontFamily;
 
   &:hover {
-    border: 1px solid $primaryFontColor;
+    border: 1px solid $primaryColor;
   }
 
   .navBarLink {
@@ -23,7 +23,7 @@
     &:hover {
       font-size: 18px;
       text-decoration: none;
-      color: $primaryFontColor;
+      color: $primaryColor;
     }
   }
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import skillStyle from './Skill.module.css'
+import skillStyle from './Skill.module.scss'
 
 export type SkillType = {
     skillImg: string

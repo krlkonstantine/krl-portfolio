@@ -15,14 +15,14 @@
       content: '';
       height: 1px;
       width: 55px;
-      background-color: $primaryFontColor;
+      background-color: $primaryColor;
       position: absolute;
       transform: translate(-50%, 75px);
       left: 50%;
     }
 
     span {
-      color: $primaryFontColor;
+      color: $primaryColor;
       font-weight: 300;
 
     }
