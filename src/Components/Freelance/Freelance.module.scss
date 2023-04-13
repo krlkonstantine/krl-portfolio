@@ -3,10 +3,10 @@
 
 .freelanceContainer {
   height: 20vh;
-  background-color: #212529;
+  background-color: $secondaryBackgroungColor;
   padding: 30px 0;
 
-  .basicContainer {
+  .infoAndBtnContainer {
     height: 100%;
     width: 80%;
     margin: 0 auto;

@@ -5,7 +5,7 @@ import {CategoryTitle} from "../common/CategoryTitle/CategoryTitle";
 export const Freelance = () => {
     return (
         <div className={stylesFreelance.freelanceContainer}>
-            <div className={stylesFreelance.basicContainer}>
+            <div className={stylesFreelance.infoAndBtnContainer}>
                 <CategoryTitle phraseBeginning={"I am ready for Remote"} accentWord={" Cooperation"}/>
                 <button className={stylesFreelance.freelanceBtn}>
                     Hire me!

@@ -3,7 +3,7 @@ import stylesTitle from './CategoryTitle.module.scss'
 
 type CategoryTitlePropsType = {
     phraseBeginning: string
-    accentWord: string
+    accentWord?: string
 }
 
 export const CategoryTitle : React.FC<CategoryTitlePropsType> = (props) => {
