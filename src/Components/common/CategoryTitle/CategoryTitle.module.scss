@@ -1,13 +1,13 @@
 @import "../styles/variables";
 
 .titleContainer {
-  font-family: $basicFont;
+  font-family: $basicFontFamily;
   margin-bottom: 13px;
 
   h2 {
     font-size: 48px;
     line-height: 60px;
-    color: $textColor;
+    color: $basicFontColor;
     font-weight: 300;
     margin: 0;
 
@@ -15,14 +15,14 @@
       content: '';
       height: 1px;
       width: 55px;
-      background-color: $primaryColor;
+      background-color: $primaryFontColor;
       position: absolute;
       transform: translate(-50%, 75px);
       left: 50%;
     }
 
     span {
-      color: $primaryColor;
+      color: $primaryFontColor;
       font-weight: 300;
 
     }

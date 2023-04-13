@@ -7,12 +7,19 @@ import {MyWork} from "./Components/MyWork/MyWork";
 import {Freelance} from "./Components/Freelance/Freelance";
 import {Contact} from "./Components/Contact/Contact";
 import {Footer} from "./Components/Footer/Footer";
+import myImg from "../src/assets/img/aboutMe_pic.jpeg"
+
+let myPic = {
+    style: {
+        backgroundImage: `url(${myImg})`
+    }
+}
 
 function App() {
     return (
         <div className="App">
             <Header/>
-            <Home/>
+            <Home style={myPic.style}/>
             <MySkills/>
             <MyWork/>
             <Freelance/>

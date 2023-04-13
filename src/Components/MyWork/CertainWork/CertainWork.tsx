@@ -13,7 +13,7 @@ export type WorksType = {
 export const CertainWork = (props: WorksType) => {
     return (
         <div className={certainWorkStyle.certainWorkContainer}>
-            <div style={props.style} className={certainWorkStyle.iconContainer}>
+            <div style={props.style} className={certainWorkStyle.imageContainer}>
                 {/*<img className={certainWorkStyle.certainWorkIcon} src={props.workImg} alt={props.skillTitle}/>
                 initially the images were displayed through position property
                 the links were received via props. I decided to keep this old code

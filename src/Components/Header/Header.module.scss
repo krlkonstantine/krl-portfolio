@@ -1,7 +1,10 @@
+@import "../common/styles/variables";
+
 .headerMain {
     height: 80px;
-    background-color: lightgrey;
+    background-color: $basicbgColor;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 20px;
 }

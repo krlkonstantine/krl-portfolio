@@ -1,5 +1,5 @@
 import React from 'react';
-import hStyle from './Header.module.css'
+import hStyle from './Header.module.scss'
 import {Nav} from "./Nav/Nav";
 
 export const Header = () => {
