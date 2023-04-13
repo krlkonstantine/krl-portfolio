@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/krl-portfolio/static/css/main.34fb4c70.css",
-    "main.js": "/krl-portfolio/static/js/main.0f1a0dba.js",
+    "main.css": "/krl-portfolio/static/css/main.a266acd5.css",
+    "main.js": "/krl-portfolio/static/js/main.faf05af1.js",
     "static/js/787.0d73afc2.chunk.js": "/krl-portfolio/static/js/787.0d73afc2.chunk.js",
+    "static/media/sNetwork.jpg": "/krl-portfolio/static/media/sNetwork.2651617dcbb8b87d4819.jpg",
+    "static/media/aboutMe_pic.jpeg": "/krl-portfolio/static/media/aboutMe_pic.074a14bbb08f889e5565.jpeg",
+    "static/media/ToDoList.jpg": "/krl-portfolio/static/media/ToDoList.f862750eeadd1ce8cfed.jpg",
     "index.html": "/krl-portfolio/index.html",
-    "main.34fb4c70.css.map": "/krl-portfolio/static/css/main.34fb4c70.css.map",
-    "main.0f1a0dba.js.map": "/krl-portfolio/static/js/main.0f1a0dba.js.map",
+    "main.a266acd5.css.map": "/krl-portfolio/static/css/main.a266acd5.css.map",
+    "main.faf05af1.js.map": "/krl-portfolio/static/js/main.faf05af1.js.map",
     "787.0d73afc2.chunk.js.map": "/krl-portfolio/static/js/787.0d73afc2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34fb4c70.css",
-    "static/js/main.0f1a0dba.js"
+    "static/css/main.a266acd5.css",
+    "static/js/main.faf05af1.js"
   ]
 }
