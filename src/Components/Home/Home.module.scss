@@ -12,7 +12,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid dimgray;
     -moz-border-radius-topleft: 30px;
     -moz-border-radius-topright: 30px;
 
@@ -28,6 +27,9 @@
       &:hover {
         border: 1px solid $primaryColor;
       }
+      @media screen and (max-width: 518px) {
+        height: 220px;
+      }
 
       &::after {
         content: '';
@@ -37,6 +39,12 @@
         position: absolute;
         transform: translate(-50%, 12px);
         left: 26%;
+        @media screen and (max-width: 983px) {
+          left: 36%;
+        }
+        @media screen and (max-width: 563px) {
+          background-color: $basicBackgroungColor;
+        }
       }
 
       .mainHello {
@@ -55,6 +63,9 @@
         font-weight: 300;
         font-size: 36px;
         letter-spacing: 1.2px;
+        @media screen and (max-width: 606px) {
+          font-size: 30px;
+        }
 
         span {
           color: $primaryColor;

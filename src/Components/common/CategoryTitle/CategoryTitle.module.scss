@@ -11,6 +11,23 @@
     font-weight: 300;
     margin: 0;
 
+    @media screen and (max-width: 650px) {
+      font-size: 45px;
+      line-height: 56px;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 40px;
+      line-height: 50px;
+    }
+    @media screen and (max-width: 540px) {
+      font-size: 37px;
+      line-height: 46px;
+    }
+    @media screen and (max-width: 465px) {
+      font-size: 35px;
+      line-height: 43px;
+    }
+
     &::after {
       content: '';
       height: 1px;

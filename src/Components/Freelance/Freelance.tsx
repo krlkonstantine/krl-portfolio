@@ -6,7 +6,9 @@ export const Freelance = () => {
     return (
         <div className={stylesFreelance.freelanceContainer}>
             <div className={stylesFreelance.infoAndBtnContainer}>
-                <CategoryTitle phraseBeginning={"I am ready for Remote"} accentWord={" Cooperation"}/>
+                <div className={stylesFreelance.categoryTitleContainer}>
+                    <CategoryTitle phraseBeginning={"I am ready for Remote"} accentWord={" Cooperation"}/>
+                </div>
                 <button className={stylesFreelance.freelanceBtn}>
                     Hire me!
                 </button>
