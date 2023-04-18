@@ -6,9 +6,7 @@ export const Contact = () => {
     return (
         <div className={stylesContact.contactContainer}>
             <div className={stylesContact.formContainer}>
-                <div className={stylesContact.categoryTitleContainer}>
                     <CategoryTitle phraseBeginning={"Contact"} />
-                </div>
                 <form className={stylesContact.contactForm} action="send">
                     <span className={stylesContact.sendMeAMessage}>Send me a message</span>
                     <input className={stylesContact.input} placeholder={"Name"} type="text"/>

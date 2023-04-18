@@ -1,49 +1,38 @@
 @import "../styles/variables";
 
 .titleContainer {
+  font-size: 48px;
+  line-height: 1.2;
+  color: $basicFontColor;
+  font-weight: 300;
+  margin: 0;
   font-family: $basicFontFamily;
   margin-bottom: 13px;
 
-  h2 {
-    font-size: 48px;
-    line-height: 60px;
-    color: $basicFontColor;
-    font-weight: 300;
-    margin: 0;
-
-    @media screen and (max-width: 650px) {
-      font-size: 45px;
-      line-height: 56px;
-    }
-    @media screen and (max-width: 600px) {
-      font-size: 40px;
-      line-height: 50px;
-    }
-    @media screen and (max-width: 540px) {
-      font-size: 37px;
-      line-height: 46px;
-    }
-    @media screen and (max-width: 465px) {
-      font-size: 35px;
-      line-height: 43px;
-    }
-
-    &::after {
-      content: '';
-      height: 1px;
-      width: 55px;
-      background-color: $primaryColor;
-      position: absolute;
-      transform: translate(-50%, 75px);
-      left: 50%;
-    }
-
-    span {
-      color: $primaryColor;
-      font-weight: 300;
-
-    }
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  @media screen and (max-width: 576px) {
+    font-size: 37px;
+    line-height: 50px;
   }
 
+  &::after {
+    content: '';
+    height: 1px;
+    width: 55px;
+    background-color: $primaryColor;
+    position: absolute;
+    transform: translate(-50%, 75px);
+    left: 50%;
+  }
 
+  span {
+    color: $primaryColor;
+    font-weight: 300;
+
+  }
 }
+
+

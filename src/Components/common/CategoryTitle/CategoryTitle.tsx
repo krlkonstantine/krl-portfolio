@@ -6,10 +6,8 @@ type CategoryTitlePropsType = {
     accentWord?: string
 }
 
-export const CategoryTitle : React.FC<CategoryTitlePropsType> = (props) => {
+export const CategoryTitle: React.FC<CategoryTitlePropsType> = (props) => {
     return (
-        <div className={stylesTitle.titleContainer}>
-            <h2> {props.phraseBeginning} <span>{props.accentWord}</span> </h2>
-        </div>
+        <h2 className={stylesTitle.titleContainer}> {props.phraseBeginning} <span>{props.accentWord}</span></h2>
     );
 };
