@@ -1,5 +1,9 @@
 import React from 'react';
 import stylesFooter from './Footer.module.scss'
+import {ReactComponent as FbLogo} from "../../assets/img/fb_icon.svg"
+import {ReactComponent as VkLogo} from "../../assets/img/vk_icon.svg"
+import {ReactComponent as TgbLogo} from "../../assets/img/tg_icon.svg"
+import {ReactComponent as GitLogo} from "../../assets/img/git_icon.svg"
 
 export const Footer = () => {
 
@@ -17,21 +21,19 @@ export const Footer = () => {
                     Konstantine
                 </div>
                 <div className={stylesFooter.sNetworksImgLinksContainer}>
-                    <a href={socialMediaLinks.fb} target="_blank"><img className={stylesFooter.sNetworksImgs}
-                                                                             src="https://louisville.edu/english/images/facebookicon.png/image"
-                                                                             alt="fb-logo"/></a>
-                    <a href={socialMediaLinks.vk} target="_blank"><img className={stylesFooter.sNetworksImgs}
-                                                                             src="https://cdn-icons-png.flaticon.com/512/2111/2111747.png"
-                                                                             alt="vk-logo"/></a>
-                    <a href={socialMediaLinks.tg} target="_blank"><img className={stylesFooter.sNetworksImgs}
-                                                                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png"
-                                                                              alt="tg-logo"/></a>
-                    <a href={socialMediaLinks.gt} target="_blank"><img className={stylesFooter.sNetworksImgs}
-                                                                             src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png"
-                                                                             alt="gitHub-logo"/></a>
+                    <a href={socialMediaLinks.fb} target="_blank">
+                        <FbLogo className={stylesFooter.sNetworksLogo} />
+                    </a>
+                    <a href={socialMediaLinks.fb} target="_blank">
+                        <VkLogo className={stylesFooter.sNetworksLogo} />
+                    </a><a href={socialMediaLinks.fb} target="_blank">
+                        <TgbLogo className={stylesFooter.sNetworksLogo} />
+                    </a><a href={socialMediaLinks.fb} target="_blank">
+                        <GitLogo className={stylesFooter.sNetworksLogo} />
+                    </a>
 
                 </div>
-                <span className={stylesFooter.copyryghtText}>
+                <span className={stylesFooter.copyrightText}>
                     Copyright © 2023 KornitselDev. All rights reserved.
                 </span>
 

@@ -2,12 +2,12 @@
 @import "../common/styles/mixins";
 
 .footerContainer {
-    min-height: 20vh;
-    background-color: $secondaryBackgroungColor;
-    padding-top: 15px;
-}
+  min-height: 20vh;
+  background-color: $secondaryBackgroungColor;
+  padding-top: 15px;
 
-.footerContentContainer {
+
+  .footerContentContainer {
     height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -15,30 +15,35 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-}
 
-.displText {
-    margin: 10px;
-    @include text($basicFontFamily, 33px, 1.2, $secondaryFontColor, 300);
-}
+    .displText {
+      margin: 10px;
+      @include text($basicFontFamily, 33px, 1.2, $secondaryFontColor, 300);
+    }
 
-.sNetworksImgLinksContainer {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-evenly;
-    min-width: 30%;
-}
+    .sNetworksImgLinksContainer {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: space-evenly;
+      min-width: 30%;
 
-.sNetworksImgs {
-    width: 40px;
-    height: 40px;
-}
+      .sNetworksLogo {
+        width: 48px;
+        height: 48px;
+        fill: $secondaryFontColor;
+        &:hover {
+          fill: $primaryColor;
+        }
+      }
+    }
 
-.copyryghtText {
-    font-size: 15px;
-    padding: 6px 0;
-    color: #555555;
-    margin: 10px 0 2px;
-}
+    .copyrightText {
+      font-size: 15px;
+      padding: 6px 0;
+      color: #555555;
+      margin: 10px 0 2px;
+    }
+  }
 
+}
