@@ -24,11 +24,11 @@ export const Footer = () => {
                     <a href={socialMediaLinks.fb} target="_blank">
                         <FbLogo className={stylesFooter.sNetworksLogo} />
                     </a>
-                    <a href={socialMediaLinks.fb} target="_blank">
+                    <a href={socialMediaLinks.vk} target="_blank">
                         <VkLogo className={stylesFooter.sNetworksLogo} />
-                    </a><a href={socialMediaLinks.fb} target="_blank">
+                    </a><a href={socialMediaLinks.tg} target="_blank">
                         <TgbLogo className={stylesFooter.sNetworksLogo} />
-                    </a><a href={socialMediaLinks.fb} target="_blank">
+                    </a><a href={socialMediaLinks.gt} target="_blank">
                         <GitLogo className={stylesFooter.sNetworksLogo} />
                     </a>
 

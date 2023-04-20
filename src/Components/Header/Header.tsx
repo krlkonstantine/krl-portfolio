@@ -6,7 +6,6 @@ export const Header = () => {
     return (
         <div className={hStyle.headerMain}>
             <Nav/>
-
         </div>
     );
 };

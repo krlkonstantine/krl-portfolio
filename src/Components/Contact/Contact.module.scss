@@ -13,7 +13,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    letter-spacing: 2px;
 
     h2 {
       letter-spacing: 2px;
@@ -37,6 +36,7 @@
       border: 1px solid $secondaryFontColor;
       border-radius: 30px;
       margin-bottom: 40px;
+      font-family: $basicFontFamily;
 
       &:hover {
         border: 1px solid $primaryColor;
@@ -44,12 +44,11 @@
 
       .sendMeAMessage {
         @include text($basicFontFamily, 33px, 1.2, $secondaryFontColor, 300);
-        letter-spacing: 1.1px;
         padding: 4px 3px;
       }
 
       .input {
-        font-size: 15px;
+        font-size: 16px;
         padding: 6px 10px;
         color: $basicFontColor;
         margin: 10px 0;
@@ -67,7 +66,7 @@
 
       .textArea {
         font-family: $basicFontFamily;
-        font-size: 17px;
+        font-size: 16px;
         padding: 6px 10px;
         background: $basicBackgroungColor;
         color: beige;
@@ -87,40 +86,22 @@
 
     .sendButton {
       text-align: center;
-      padding: 11px 58px 10px 58px;
-      display: inline-flex;
-      align-items: center;
+      padding: 8px 30px;
       border-radius: 30px;
       justify-content: center;
       text-transform: uppercase;
       background: $secondaryBackgroungColor;
       border: 2px solid $primaryColor;
       cursor: pointer;
-      width: 30%;
       letter-spacing: 1.5px;
-      @include text($basicFontFamily, 20px, 1, $primaryColor, 300);
+      @include text($basicFontFamily, 25px, 1, $primaryColor, 300);
 
-      @media screen and (max-width: 1215px) {
-        width: 40%;
+      @media screen and (max-width: 768px) {
+        font-size: 23px;
+        margin-top: 0;
       }
-      @media screen and (max-width: 910px) {
-        width: 45%;
-      }
-      @media screen and (max-width: 810px) {
-        width: 50%;
-      }
-      @media screen and (max-width: 730px) {
-        width: 67%;
-      }
-      @media screen and (max-width: 545px) {
-        width: 72%;
-      }
-      @media screen and (max-width: 505px) {
-        width: 80%;
-      }
-      @media screen and (max-width: 480px) {
-        width: 85%;
-        font-size: 15px;
+      @media screen and (max-width: 576px) {
+        font-size: 20px;
       }
 
       &:hover {

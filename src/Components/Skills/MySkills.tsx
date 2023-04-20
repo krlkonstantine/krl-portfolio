@@ -4,7 +4,7 @@ import {Skill, SkillType} from "./Skill/Skill";
 import {CategoryTitle} from "../common/CategoryTitle/CategoryTitle";
 import reactLogo from "../../assets/img/react_logo.png"
 import reduxLogo from "../../assets/img/redux_logo.svg"
-import reactNativeLogo from "../../assets/img/reactjs_javascript_library_atom_atomic_react-512.webp"
+import reactNativeLogo from "../../assets/img/r_native_logo.webp"
 
 
 export const MySkills = () => {

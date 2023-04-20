@@ -6,7 +6,6 @@
   justify-content: space-between;
   border: 1px solid $basicFontColor;
   border-radius: 10px;
-  font-weight: 700;
   padding: 5px 15px;
   font-family: $basicFontFamily;
 
@@ -19,6 +18,7 @@
     text-decoration: none;
     color: $basicFontColor;
     padding-left: 10px;
+    font-weight: 300;
 
     &:hover {
       font-size: 18px;
