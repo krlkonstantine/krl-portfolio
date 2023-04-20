@@ -18,25 +18,22 @@
 
   .iconContainer {
     .skillIcon {
+      margin-top: 10px;
       width: 100px;
       height: auto;
     }
   }
 
-  .skillTitle {
-    box-sizing: border-box;
-    font-family: $basicFontFamily;
-    font-weight: 300;
+  h2 {
     font-size: 30px;
-    padding: 5px;
-    color: $basicFontColor;
-    margin: 0;
-    text-align: center;
 
     &:hover {
       color: $primaryColor;
     }
 
+    &::after {
+      background-color: transparent;
+    }
   }
 
   .skillDescription {

@@ -1,5 +1,6 @@
 import React from 'react';
 import skillStyle from './Skill.module.scss'
+import {CategoryTitle} from "../../common/CategoryTitle/CategoryTitle";
 
 export type SkillType = {
     skillImg: string
@@ -12,7 +13,7 @@ export const Skill = (props: SkillType) => {
         <div className={skillStyle.skillContainer}>
             <div className={skillStyle.iconContainer}>
                 <img className={skillStyle.skillIcon} src={props.skillImg} alt={props.skillTitle}/></div>
-            <h3 className={skillStyle.skillTitle}>{props.skillTitle}</h3>
+            <CategoryTitle phraseBeginning={props.skillTitle} />
             <span className={skillStyle.skillDescription}>
                 {props.skillDescription} </span>
         </div>
