@@ -59,6 +59,18 @@
         resize: none;
         outline: 0 !important;
 
+        &:-webkit-autofill:hover,
+        &:-webkit-autofill:focus,
+        &:-webkit-autofill {
+
+          border: 0;
+          -webkit-text-fill-color: #1f1f20;
+          -webkit-box-shadow: 0 0 0 1000px red inset;
+          transition: background-color 5000s ease-in-out 0s;
+          background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 174, 255, 0.04) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 174, 255, 0.03) 100%);
+        }
+
+
         &:focus {
           color: $primaryColor;
         }
@@ -76,9 +88,15 @@
         border: none;
         resize: none;
 
+        &:-webkit-autofill:hover,
+        &:-webkit-autofill:focus,
+        &:-webkit-autofill,
+        & textarea:-webkit-autofill,
+        & textarea:-webkit-autofill:hover,
+        & textarea:-webkit-autofill:focus,
         &:focus {
           color: $primaryColor;
-          outline:0px none transparent !important;
+          outline: 0 none transparent !important;
         }
       }
     }
@@ -108,6 +126,7 @@
         background-color: $primaryColor;
         border: 2px solid $primaryColor;
         color: $basicBackgroungColor;
+        transition: all 0.4s ease-in-out 0s;
       }
 
     }

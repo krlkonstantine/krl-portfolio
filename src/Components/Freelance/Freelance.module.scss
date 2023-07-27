@@ -49,6 +49,7 @@
       background-color: $secondaryBackgroungColor;
       border: 2px solid $primaryColor;
       color: $primaryColor;
+      transition: all 0.4s ease-in-out 0s;
     }
   }
 }

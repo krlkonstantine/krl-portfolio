@@ -31,7 +31,6 @@ export const Footer = () => {
                     </a><a href={socialMediaLinks.gt} target="_blank">
                         <GitLogo className={stylesFooter.sNetworksLogo} />
                     </a>
-
                 </div>
                 <span className={stylesFooter.copyrightText}>
                     Copyright © 2023 KornitselDev. All rights reserved.
