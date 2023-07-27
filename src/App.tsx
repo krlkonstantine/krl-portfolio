@@ -8,6 +8,10 @@ import {Freelance} from "./Components/Freelance/Freelance";
 import {Contact} from "./Components/Contact/Contact";
 import {Footer} from "./Components/Footer/Footer";
 import myImg from "../src/assets/img/aboutMe_pic.jpeg"
+import ParticlesBackground from "../src/Components/common/Particles/ParticlesBackground";
+
+
+
 
 let myPic = {
     photo: {
@@ -25,6 +29,7 @@ function App() {
             <Freelance/>
             <Contact/>
             <Footer/>
+            <ParticlesBackground/>
         </div>
     );
 }
