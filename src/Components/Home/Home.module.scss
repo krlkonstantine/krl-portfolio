@@ -4,14 +4,14 @@
   height: 100vh;
   background-color: $basicBackgroungColor;
 
-  .greetingAngImgContainer {
+  .greetingContainer {
     height: 100%;
     width: 80%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     -moz-border-radius-topleft: 30px;
     -moz-border-radius-topright: 30px;
 
@@ -27,6 +27,7 @@
       &:hover {
         border: 1px solid $primaryColor;
       }
+
       @media screen and (max-width: 518px) {
         height: 220px;
       }
@@ -70,17 +71,7 @@
         span {
           color: $primaryColor;
           font-weight: 400;
-          :after {
-            content: "";
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            height: 20px;
-            width: 100%;
-            z-index: -1;
-            background: #4e93e6;
-          }
+
         }
       }
 
@@ -93,16 +84,42 @@
     }
 
     .greetingImgContainer {
-      border-radius: 30px;
-      width: 300px;
-      height: 400px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+      position: relative;
+      z-index: 1;
+      @media screen and (max-width: 1143px) {
+        .greetingImgContainer {
+          margin-top: 50px;
+        }
+      }
+
+      .myImg {
+        border-radius: 10px;
+        width: 300px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        &:before {
+          content: "";
+          position: absolute;
+          height: 100%;
+          width: 105%;
+          border: 5px solid $primaryColor;
+          border-radius: 10px;
+          left: 15px;
+          top: 15px;
+          z-index: -1;
+        }
+      }
+
     }
+
+
   }
 }
+
 

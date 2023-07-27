@@ -10,7 +10,7 @@ import {Footer} from "./Components/Footer/Footer";
 import myImg from "../src/assets/img/aboutMe_pic.jpeg"
 
 let myPic = {
-    style: {
+    photo: {
         backgroundImage: `url(${myImg})`
     }
 }
@@ -19,7 +19,7 @@ function App() {
     return (
         <div className="App">
             <Header/>
-            <Home style={myPic.style}/>
+            <Home style={myPic.photo}/>
             <MySkills/>
             <MyWork/>
             <Freelance/>
