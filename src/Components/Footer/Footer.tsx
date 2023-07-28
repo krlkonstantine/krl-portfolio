@@ -2,8 +2,9 @@ import React from 'react';
 import stylesFooter from './Footer.module.scss'
 import {ReactComponent as FbLogo} from "../../assets/img/fb_icon.svg"
 import {ReactComponent as VkLogo} from "../../assets/img/vk_icon.svg"
-import {ReactComponent as TgbLogo} from "../../assets/img/tg_icon.svg"
+import {ReactComponent as TgLogo} from "../../assets/img/tg_icon.svg"
 import {ReactComponent as GitLogo} from "../../assets/img/git_icon.svg"
+import {Bounce} from "react-awesome-reveal";
 
 export const Footer = () => {
 
@@ -22,15 +23,24 @@ export const Footer = () => {
                 </div>
                 <div className={stylesFooter.sNetworksImgLinksContainer}>
                     <a href={socialMediaLinks.fb} target="_blank">
-                        <FbLogo className={stylesFooter.sNetworksLogo} />
+                        <Bounce>
+                            <FbLogo className={stylesFooter.sNetworksLogo}/>
+                        </Bounce>
                     </a>
                     <a href={socialMediaLinks.vk} target="_blank">
-                        <VkLogo className={stylesFooter.sNetworksLogo} />
+                        <Bounce>
+                            <VkLogo className={stylesFooter.sNetworksLogo}/>
+                        </Bounce>
                     </a><a href={socialMediaLinks.tg} target="_blank">
-                        <TgbLogo className={stylesFooter.sNetworksLogo} />
-                    </a><a href={socialMediaLinks.gt} target="_blank">
-                        <GitLogo className={stylesFooter.sNetworksLogo} />
-                    </a>
+                    <Bounce>
+                        <TgLogo className={stylesFooter.sNetworksLogo}/>
+                    </Bounce>
+
+                </a><a href={socialMediaLinks.gt} target="_blank">
+                    <Bounce>
+                        <GitLogo className={stylesFooter.sNetworksLogo}/>
+                    </Bounce>
+                </a>
                 </div>
                 <span className={stylesFooter.copyrightText}>
                     Copyright © 2023 KornitselDev. All rights reserved.

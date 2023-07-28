@@ -13,6 +13,7 @@
   &:hover {
     border: 1px solid $primaryColor;
     background-color: $basicBackgroungColor;
+    transition: all 0.4s ease-in-out 0s;
   }
 
   .imageContainer {
@@ -52,6 +53,7 @@
       &:hover {
         background-color: $secondaryBackgroungColor;
         color: $primaryColor;
+        transition: all 0.4s ease-in-out 0s;
       }
     }
 
@@ -63,6 +65,7 @@
     margin: 10px 0 10px;
  &:hover{
    color: $primaryColor;
+   transition: all 0.4s ease-in-out 0s;
  }
   }
 

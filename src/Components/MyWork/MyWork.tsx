@@ -4,6 +4,8 @@ import {CertainWork, WorksType} from "./CertainWork/CertainWork";
 import {CategoryTitle} from "../common/CategoryTitle/CategoryTitle";
 import todoImage from "../../assets/img/ToDoList.jpg"
 import socialNetImage from "../../assets/img/sNetwork.jpg"
+import {Zoom} from "react-awesome-reveal";
+
 
 export const MyWork = () => {
 
@@ -36,12 +38,14 @@ export const MyWork = () => {
                 <CategoryTitle phraseBeginning={'Featured'} accentWord={'Projects'} />
                 <div className={myWorkStyles.workContainer}>
                     {MyWorks.map(certainWork =>
+                        <Zoom duration={900}>
                         <CertainWork key={certainWork.key}
                             style={certainWork.style}
                             workImg={certainWork.workImg}
                                      workAddress={certainWork.workAddress}
                                      skillTitle={certainWork.skillTitle}
                                      skillDescription={certainWork.skillDescription}/>
+                        </Zoom>
                     )}
                 </div>
 

@@ -11,6 +11,8 @@
 
   &:hover {
     border: 1px solid $primaryColor;
+    transition: all 0.4s ease-in-out 0s;
+
   }
 
   .navBarLink {
@@ -24,6 +26,8 @@
       font-size: 18px;
       text-decoration: none;
       color: $primaryColor;
+      transition: all 0.4s ease-in-out 0s;
+
     }
   }
 }

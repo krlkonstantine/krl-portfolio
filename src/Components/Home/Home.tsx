@@ -1,6 +1,9 @@
 import React from 'react';
 import homeStyle from './Home.module.scss'
 import {TsParticles} from "../common/Particles/TsParticles";
+import {AttentionSeeker} from "react-awesome-reveal";
+import {Slide } from "react-awesome-reveal";
+
 
 class Properties<T, U> {
 }
@@ -19,11 +22,13 @@ export const Home = (props: AboutMePropsType) => {
                     <h1>My name is <span>Konstantine</span></h1>
                     <p className={homeStyle.shortPrestext}>I'm a Frontend developer, working with React-Redux</p>
                 </div>
-                <div  className={homeStyle.greetingImgContainer}>
-                    <div style={props.style} className={homeStyle.myImg}>
+                <Slide direction={"right"} duration={1200}>
+                    <div className={homeStyle.greetingImgContainer}>
+                        <div style={props.style} className={homeStyle.myImg}>
 
+                        </div>
                     </div>
-                </div>
+                </Slide >
                 <TsParticles />
             </div>
 

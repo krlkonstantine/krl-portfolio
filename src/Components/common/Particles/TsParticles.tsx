@@ -56,7 +56,7 @@ export const TsParticles = () => {
                 },
                 particles: {
                     color: {
-                        value: "#ffffff",
+                        value: "rgba(255,255,255,0.53)",
                     },
                     links: {
                         color: "#ffffff",
@@ -72,7 +72,7 @@ export const TsParticles = () => {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 2,
+                        speed: 1,
                         straight: false,
                     },
                     number: {
@@ -83,17 +83,17 @@ export const TsParticles = () => {
                         value: 80,
                     },
                     opacity: {
-                        value: 0.5,
+                        value: 0.2,
                     },
                     shape: {
-                        type: "circle",
+                        type: "star",
                     },
                     size: {
-                        value: { min: 1, max: 7 },
+                        value: { min: 1, max: 3 },
                     },
                 },
                 detectRetina: true,
-                zIndex: -10,
+                zIndex: -2,
                 position: "absolute"
             }}
         />

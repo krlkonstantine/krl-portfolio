@@ -5,6 +5,7 @@ import {CategoryTitle} from "../common/CategoryTitle/CategoryTitle";
 import reactLogo from "../../assets/img/react_logo.png"
 import reduxLogo from "../../assets/img/redux_logo.svg"
 import reactNativeLogo from "../../assets/img/r_native_logo.webp"
+import {Fade} from "react-awesome-reveal";
 
 
 export const MySkills = () => {
@@ -27,19 +28,21 @@ export const MySkills = () => {
         }
     ]
     return (
-        <div className={MySkillsContainer.mainSkills}>
-            <div className={MySkillsContainer.skillsSpecialContainer}>
-                <div className={MySkillsContainer.skillsTitle}>
-                    <CategoryTitle phraseBeginning={'My'} accentWord={'Advantages'}/>
-                </div>
-                <div className={MySkillsContainer.skillsContainer}>
-                    {MySkills.map(skill =>
-                        <Skill skillImg={skill.skillImg} skillTitle={skill.skillTitle}
-                               skillDescription={skill.skillDescription}/>
-                    )}
-                </div>
+        <Fade delay={700}>
+            <div className={MySkillsContainer.mainSkills}>
+                <div className={MySkillsContainer.skillsSpecialContainer}>
+                    <div className={MySkillsContainer.skillsTitle}>
+                        <CategoryTitle phraseBeginning={'My'} accentWord={'Advantages'}/>
+                    </div>
+                    <div className={MySkillsContainer.skillsContainer}>
+                        {MySkills.map(skill =>
+                            <Skill skillImg={skill.skillImg} skillTitle={skill.skillTitle}
+                                   skillDescription={skill.skillDescription}/>
+                        )}
+                    </div>
 
+                </div>
             </div>
-        </div>
+        </Fade>
     );
 };
