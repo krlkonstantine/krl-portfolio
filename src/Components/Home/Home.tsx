@@ -1,8 +1,10 @@
 import React from 'react';
 import homeStyle from './Home.module.scss'
 import {TsParticles} from "../common/Particles/TsParticles";
-import {AttentionSeeker} from "react-awesome-reveal";
 import {Slide } from "react-awesome-reveal";
+import ReactTypingEffect from "react-typing-effect";
+import Typewriter from 'react-ts-typewriter';
+
 
 
 class Properties<T, U> {
@@ -20,7 +22,9 @@ export const Home = (props: AboutMePropsType) => {
                 <div className={homeStyle.greetingTextContainer}>
                     <span className={homeStyle.mainHello}>Hello there!</span>
                     <h1>My name is <span>Konstantine</span></h1>
-                    <p className={homeStyle.shortPrestext}>I'm a Frontend developer, working with React-Redux</p>
+                    <p className={homeStyle.shortPrestext}>
+                        <Typewriter delay={30} random={50} speed={60} text={"I'm a Frontend developer, working with React-Redux"}/>
+                        </p>
                 </div>
                 <Slide direction={"right"} duration={1200}>
                     <div className={homeStyle.greetingImgContainer}>
