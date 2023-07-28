@@ -3,6 +3,7 @@ import type { Container, Engine } from "tsparticles-engine";
 import Particles from "react-tsparticles";
 //import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
+import homeStyle from './Home.module.scss'
 
 export const TsParticles = () => {
     const particlesInit = useCallback(async (engine: Engine) => {
@@ -19,6 +20,7 @@ export const TsParticles = () => {
         await console.log(container);
     }, []);
     return (
+        <div style={{position:"absolute",top:0,bottom:0,left:0,right:0,zIndex:-1}}>
         <Particles
             id="tsparticles"
             init={particlesInit}
@@ -91,7 +93,10 @@ export const TsParticles = () => {
                     },
                 },
                 detectRetina: true,
+                zIndex: -10,
+                position: "absolute"
             }}
         />
+        </div>
     );
-};
+}

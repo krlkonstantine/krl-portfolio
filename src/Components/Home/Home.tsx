@@ -1,5 +1,6 @@
 import React from 'react';
 import homeStyle from './Home.module.scss'
+import {TsParticles} from "../common/Particles/TsParticles";
 
 class Properties<T, U> {
 }
@@ -23,7 +24,7 @@ export const Home = (props: AboutMePropsType) => {
 
                     </div>
                 </div>
-
+                <TsParticles />
             </div>
 
         </div>

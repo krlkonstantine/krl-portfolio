@@ -3,6 +3,8 @@
 .mainHome {
   height: 100vh;
   //background-color: $basicBackgroungColor;
+  position: relative;
+
 
   .greetingContainer {
     height: 100%;
@@ -20,6 +22,7 @@
       width: 470px;
       height: 200px;
       color: $basicFontColor;
+      background-color: $basicBackgroungColor;
       border: 1px solid dimgray;
       border-radius: 30px;
       font-family: $basicFontFamily;
