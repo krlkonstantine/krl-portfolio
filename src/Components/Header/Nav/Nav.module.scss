@@ -22,13 +22,27 @@
     padding-left: 10px;
     font-weight: 300;
 
+
+
     &:hover {
       font-size: 18px;
       text-decoration: none;
       color: $primaryColor;
+      cursor: pointer;
       transition: all 0.4s ease-in-out 0s;
     }
+
+    .activeLink {
+      font-size: 12px;
+      //text-decoration: none;
+      text-decoration: dotted;
+      color: $primaryColor;
+    }
+
   }
+
+
+
 }
 
 

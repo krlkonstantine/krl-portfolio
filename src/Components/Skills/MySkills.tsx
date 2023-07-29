@@ -28,21 +28,24 @@ export const MySkills = () => {
         }
     ]
     return (
-        <Fade delay={700}>
-            <div className={MySkillsContainer.mainSkills}>
-                <div className={MySkillsContainer.skillsSpecialContainer}>
-                    <div className={MySkillsContainer.skillsTitle}>
-                        <CategoryTitle phraseBeginning={'My'} accentWord={'Advantages'}/>
-                    </div>
-                    <div className={MySkillsContainer.skillsContainer}>
+
+        <div id="mySkills" className={MySkillsContainer.mainSkills}>
+            <div className={MySkillsContainer.skillsSpecialContainer}>
+                <div className={MySkillsContainer.skillsTitle}>
+                    <CategoryTitle phraseBeginning={'My'} accentWord={'Advantages'}/>
+                </div>
+
+                <div className={MySkillsContainer.skillsContainer}>
+                    <Fade delay={700}>
                         {MySkills.map(skill =>
                             <Skill skillImg={skill.skillImg} skillTitle={skill.skillTitle}
                                    skillDescription={skill.skillDescription}/>
                         )}
-                    </div>
-
+                    </Fade>
                 </div>
+
             </div>
-        </Fade>
+        </div>
+
     );
 };

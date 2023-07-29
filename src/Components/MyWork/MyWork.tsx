@@ -31,20 +31,20 @@ export const MyWork = () => {
             skillDescription: "I  developed a website for a company which has no website before. This helped to increase profits by 149% in the first quarter!"
         }
     ]
-
+    //TODO: rename myWork to myProjects
     return (
-        <div className={myWorkStyles.mainContainer}>
+        <div id="myProjects" className={myWorkStyles.mainContainer}>
             <div className={myWorkStyles.worksCategoryContainer}>
-                <CategoryTitle phraseBeginning={'Featured'} accentWord={'Projects'} />
+                <CategoryTitle phraseBeginning={'Featured'} accentWord={'Projects'}/>
                 <div className={myWorkStyles.workContainer}>
                     {MyWorks.map(certainWork =>
                         <Zoom duration={900}>
-                        <CertainWork key={certainWork.key}
-                            style={certainWork.style}
-                            workImg={certainWork.workImg}
-                                     workAddress={certainWork.workAddress}
-                                     skillTitle={certainWork.skillTitle}
-                                     skillDescription={certainWork.skillDescription}/>
+                            <CertainWork key={certainWork.key}
+                                         style={certainWork.style}
+                                         workImg={certainWork.workImg}
+                                         workAddress={certainWork.workAddress}
+                                         skillTitle={certainWork.skillTitle}
+                                         skillDescription={certainWork.skillDescription}/>
                         </Zoom>
                     )}
                 </div>

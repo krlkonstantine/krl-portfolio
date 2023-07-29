@@ -6,7 +6,7 @@ import {Slide} from "react-awesome-reveal";
 export const Contact = () => {
     return (
         <Slide duration={2000}>
-        <div className={stylesContact.contactContainer}>
+        <div id="contact" className={stylesContact.contactContainer}>
             <div className={stylesContact.formContainer}>
                 <CategoryTitle phraseBeginning={"Contact"}/>
                     <form className={stylesContact.contactForm} action="send">

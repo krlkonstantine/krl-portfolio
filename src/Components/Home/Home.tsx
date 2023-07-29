@@ -16,7 +16,7 @@ type AboutMePropsType = {
 
 export const Home = (props: AboutMePropsType) => {
     return (
-        <div className={homeStyle.mainHome}>
+        <div id="home" className={homeStyle.mainHome}>
             <div className={homeStyle.greetingContainer}>
 
                 <div className={homeStyle.greetingTextContainer}>
