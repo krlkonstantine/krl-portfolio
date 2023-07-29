@@ -29,6 +29,7 @@
 
       &:hover {
         border: 1px solid $primaryColor;
+        transition: all 0.4s ease-in-out 0s;
       }
 
       @media screen and (max-width: 518px) {
@@ -105,6 +106,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        position: relative;
 
         &:before {
           content: "";
