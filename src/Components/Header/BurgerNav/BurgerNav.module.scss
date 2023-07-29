@@ -1,0 +1,65 @@
+@import "../../common/styles/variables.scss";
+
+.burgerNavContainer {
+  width: 100%;
+  //border: 1px solid $basicFontColor;
+  //border-radius: 10px;
+  padding: 5px 15px;
+  font-family: $basicFontFamily;
+  position: relative;
+
+  &:hover {
+    border: 1px solid $primaryColor;
+    transition: all 0.4s ease-in-out 0s;
+  }
+
+  .burgerNavItems {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .activeLink {
+      font-size: 12px;
+      //text-decoration: none;
+      text-decoration: dotted;
+      color: $primaryColor;
+    }
+
+    .navBarLink {
+      font-size: 14px;
+      text-decoration: none;
+      color: $basicFontColor;
+      padding-left: 10px;
+      font-weight: 300;
+
+
+      &:hover {
+        font-size: 14px;
+        text-decoration: none;
+        color: $primaryColor;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out 0s;
+      }
+
+    }
+  }
+
+  @media screen and (min-width: 400px) {
+    display: none;
+  }
+
+  .burgerButton {
+    width: 30px;
+    height: 30px;
+    background-color: $primaryColor;
+    position: absolute;
+    top: 10px;
+    right: 4px;
+  }
+
+}
+
+
+
