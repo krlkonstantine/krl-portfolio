@@ -1,12 +1,22 @@
-import React from 'react';
+import React, {useState} from 'react';
 import brgStyle from './BurgerNav.module.scss'
 import {Link, animateScroll as scroll} from "react-scroll";
+import menuLogo from "../../../assets/img/r_native_logo.webp"
+import {ReactComponent as MenuLogo} from "../../../assets/img/menu_4.svg"
 
 
 export const BurgerNav = () => {
+    const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false)
+
+    const onBurgerMenuClickHandler = () => {
+        setIsMenuOpen(!isMenuOpen)
+    }
+
     return (
         <div className={brgStyle.burgerNavContainer}>
-            <div className={brgStyle.burgerNavItems}>
+            <div className={isMenuOpen
+                ? `${brgStyle.burgerNavItems} ${brgStyle.show}`
+                : brgStyle.burgerNavItems}>
                 <Link
                     to="home"
                     duration={500}
@@ -43,8 +53,8 @@ export const BurgerNav = () => {
                     offset={-50}
                 >Contact</Link>
             </div>
-            <div className={brgStyle.burgerButton}>
-
+            <div onClick={onBurgerMenuClickHandler} className={brgStyle.burgerButton}>
+                <MenuLogo className={brgStyle.menuIcon}/>
             </div>
         </div>
     );
