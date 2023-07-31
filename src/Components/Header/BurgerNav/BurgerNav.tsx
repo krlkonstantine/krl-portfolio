@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import brgStyle from './BurgerNav.module.scss'
 import {Link, animateScroll as scroll} from "react-scroll";
 import menuLogo from "../../../assets/img/r_native_logo.webp"
-import {ReactComponent as MenuLogo} from "../../../assets/img/menu_4.svg"
+import {ReactComponent as MenuLogo} from "../../../assets/img/menu_icon.svg"
 
 
 export const BurgerNav = () => {
