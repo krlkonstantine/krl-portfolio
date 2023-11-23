@@ -16,9 +16,10 @@ export const MyWork = () => {
                 backgroundImage: `url(${todoImage})`,
             },
             workImg: `úrl(${todoImage})`,
-            workAddress: "https://www.google.com/search?rlz=1C1CHBD_ruRU969RU970&sxsrf=AJOqlzUxMAs-nGTb2ENHrk1PSEptCRuogg:1673672763248&q=Hi+there&spell=1&sa=X&ved=2ahUKEwju9Zf0pMb8AhVq_SoKHTU1CokQBSgAegQIHRAB&biw=1280&bih=881&dpr=1",
-            skillTitle: "Todolist",
-            skillDescription: "This project consisted in developing the frontend part of a website with the backend part prepared"
+            workAddress: "https://rad-youtiao-a972f6.netlify.app",
+            skillTitle: "Flash Cards Learning",
+            skillDescription: "This is a teamwork project for developing a website for learning using flashcards - a quite useful learning method. Stack: React, RTK-Query, Typescript, React hook form, Zod, \n" +
+                "React Router DOM, Storybook, Radix UI, TailWind"
         },
         {
             key: 2,
@@ -26,12 +27,31 @@ export const MyWork = () => {
                 backgroundImage: `url(${socialNetImage})`
             },
             workImg: `url(${socialNetImage})`,
-            workAddress: "https://www.google.com/search?q=Have+a+nice+day&rlz=1C1CHBD_ruRU969RU970&oq=Have+a+nice+day&aqs=chrome..69i57j0i20i263i512l2j46i512j0i512l5j46i512.384j0j7&sourceid=chrome&ie=UTF-8",
-            skillTitle: "Social Network",
-            skillDescription: "I  developed a website for a company which has no website before. This helped to increase profits by 149% in the first quarter!"
+            workAddress: "ffffffffffffffffffffffff",
+            skillTitle: "Rick and Morty",
+            skillDescription: "That's a small website built on Next.js, showind Rick and Morty characters, locations and episodes. Nice tip: here you can find out which character is still alive. Such a useful information!"
+        },
+        {
+            key: 3,
+            style: {
+                backgroundImage: `url(${todoImage})`,
+            },
+            workImg: `úrl(${todoImage})`,
+            workAddress: "https://krlkonstantine.github.io/Social_Network/",
+            skillTitle: "Office Chat (Social Network)",
+            skillDescription: "This is a social network which can be used as a office chat. A minimalistic design will not make employers spend too much time scrolling each-others pages and news feed"
+        },
+        {
+            key: 4,
+            style: {
+                backgroundImage: `url(${socialNetImage})`
+            },
+            workImg: `url(${socialNetImage})`,
+            workAddress: "ffffffffffffffffffffffff",
+            skillTitle: "Task Manager (Todo List)",
+            skillDescription: "A good task manager to boost your productivity. You can add new lists of tasks, delete and edit your tasks as you wish."
         }
     ]
-    //TODO: rename myWork to myProjects
     return (
         <div id="myProjects" className={myWorkStyles.mainContainer}>
             <div className={myWorkStyles.worksCategoryContainer}>
