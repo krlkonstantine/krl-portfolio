@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/krl-portfolio/static/css/main.e7f5ab59.css",
-    "main.js": "/krl-portfolio/static/js/main.ca0b8bac.js",
+    "main.css": "/krl-portfolio/static/css/main.94beff5f.css",
+    "main.js": "/krl-portfolio/static/js/main.57ac21e4.js",
     "static/js/787.0d73afc2.chunk.js": "/krl-portfolio/static/js/787.0d73afc2.chunk.js",
-    "static/media/sNetwork.jpg": "/krl-portfolio/static/media/sNetwork.2651617dcbb8b87d4819.jpg",
     "static/media/aboutMe_pic.jpeg": "/krl-portfolio/static/media/aboutMe_pic.074a14bbb08f889e5565.jpeg",
-    "static/media/ToDoList.jpg": "/krl-portfolio/static/media/ToDoList.f862750eeadd1ce8cfed.jpg",
+    "static/media/rickMorty.jpg": "/krl-portfolio/static/media/rickMorty.15065845c8e0ab6d503c.jpg",
     "static/media/react_logo.png": "/krl-portfolio/static/media/react_logo.52610ecf5d6e21fe0347.png",
     "static/media/r_native_logo.webp": "/krl-portfolio/static/media/r_native_logo.c10342313bc6d90161a1.webp",
+    "static/media/flashcards.jpg": "/krl-portfolio/static/media/flashcards.d387bbaf3b5a9b8843f8.jpg",
+    "static/media/todolistImg.jpg": "/krl-portfolio/static/media/todolistImg.660fd901d3bf7d79837c.jpg",
+    "static/media/social.jpg": "/krl-portfolio/static/media/social.559885cb54327df5c4b4.jpg",
     "static/media/redux_logo.svg": "/krl-portfolio/static/media/redux_logo.546485b8d93d3edf5b362709cc69afc5.svg",
     "static/media/git_icon.svg": "/krl-portfolio/static/media/git_icon.47e6ca80883a32c88e5c2e333830a4e0.svg",
     "static/media/vk_icon.svg": "/krl-portfolio/static/media/vk_icon.b6daebf8fecd02bbf69e565a83d2cfe9.svg",
@@ -15,12 +17,12 @@
     "static/media/fb_icon.svg": "/krl-portfolio/static/media/fb_icon.f4a8da57c4e9267c9170a76dedadef3e.svg",
     "static/media/tg_icon.svg": "/krl-portfolio/static/media/tg_icon.02f427fc3f42904783f7d8becc5d0546.svg",
     "static/media/menu_icon.svg": "/krl-portfolio/static/media/menu_icon.317bc50c92894bf177b7fef280dcd505.svg",
-    "main.e7f5ab59.css.map": "/krl-portfolio/static/css/main.e7f5ab59.css.map",
-    "main.ca0b8bac.js.map": "/krl-portfolio/static/js/main.ca0b8bac.js.map",
+    "main.94beff5f.css.map": "/krl-portfolio/static/css/main.94beff5f.css.map",
+    "main.57ac21e4.js.map": "/krl-portfolio/static/js/main.57ac21e4.js.map",
     "787.0d73afc2.chunk.js.map": "/krl-portfolio/static/js/787.0d73afc2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7f5ab59.css",
-    "static/js/main.ca0b8bac.js"
+    "static/css/main.94beff5f.css",
+    "static/js/main.57ac21e4.js"
   ]
 }
