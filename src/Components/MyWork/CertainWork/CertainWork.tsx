@@ -17,10 +17,10 @@ export const CertainWork = (props: WorksType) => {
                 {/*<img className={certainWorkStyle.certainWorkIcon} src={props.workImg} alt={props.skillTitle}/>
                 initially the images were displayed through position property
                 the links were received via props. I decided to keep this old code
-                as this topic will be in the second lesson
+                just in case.
                 If you're still reading this then thank you so much for cod review =3
                 */}
-                <span><a className={certainWorkStyle.watchWorkBtn}>Watch</a>
+                <span><a href={props.workAddress} target='_blank' className={certainWorkStyle.watchWorkBtn}>Watch</a>
             </span>
             </div>
             <h3 className={certainWorkStyle.certainWorkTitle}>{props.skillTitle}</h3>

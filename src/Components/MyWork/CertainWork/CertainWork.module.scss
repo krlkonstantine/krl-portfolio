@@ -49,6 +49,8 @@
       cursor: pointer;
       font-family: 'Inter', sans-serif;
       position: relative;
+      text-decoration: none;
+
 
       &:hover {
         background-color: $secondaryBackgroungColor;
