@@ -4,16 +4,16 @@
 
 .skillContainer {
   border: 1px solid $secondaryFontColor;
-  border-radius: 20px;
-  width: 240px;
+  border-radius: 10px;
+  width: 120px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  margin: 10px 3px;
+  margin: 5px 3px;
 
   @media screen and (max-width: 576px) {
-    width: 300px;
+    width: 150px;
 
   }
   &:hover {
@@ -24,14 +24,14 @@
 
   .iconContainer {
     .skillIcon {
-      margin-top: 10px;
-      width: 100px;
+      margin-top: 15px;
+      width: 50px;
       height: auto;
     }
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 18px;
 
     &:hover {
       color: $primaryColor;
