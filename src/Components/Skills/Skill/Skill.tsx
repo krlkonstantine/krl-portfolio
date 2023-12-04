@@ -5,7 +5,6 @@ import {CategoryTitle} from "../../common/CategoryTitle/CategoryTitle";
 export type SkillType = {
     skillImg: string
     skillTitle: string
-    skillDescription: string
 }
 
 export const Skill = (props: SkillType) => {

@@ -14,17 +14,14 @@ export const MySkills = () => {
         {
             skillImg: reactLogo,
             skillTitle: "React",
-            skillDescription: "Реакт Редакс ты знать будешь круто...Айти кама айти кама, камасутрааааааа! Реакт Редакс ты знать будешь круто..."
         },
         {
             skillImg: reduxLogo,
             skillTitle: "Redux",
-            skillDescription: "Реакт Редакс ты знать будешь круто...Айти кама айти кама, камасутрааааааа! Реакт Редакс ты знать будешь круто..."
         },
         {
             skillImg: reactNativeLogo,
             skillTitle: "React Native",
-            skillDescription: "Реакт Редакс ты знать будешь круто...Айти кама айти кама, камасутрааааааа! Реакт Редакс ты знать будешь круто..."
         }
     ]
     return (
@@ -38,8 +35,8 @@ export const MySkills = () => {
                 <div className={MySkillsContainer.skillsContainer}>
                     <Fade delay={700}>
                         {MySkills.map(skill =>
-                            <Skill skillImg={skill.skillImg} skillTitle={skill.skillTitle}
-                                   skillDescription={skill.skillDescription}/>
+                            <Skill key={skill.skillTitle} skillImg={skill.skillImg} skillTitle={skill.skillTitle}
+                                   />
                         )}
                     </Fade>
                 </div>
