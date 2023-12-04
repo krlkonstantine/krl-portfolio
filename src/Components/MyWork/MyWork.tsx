@@ -40,7 +40,7 @@ export const MyWork = () => {
             },
             workImg: `úrl(${social})`,
             workAddress: "https://krlkonstantine.github.io/Social_Network/",
-            skillTitle: "Office Chat (Social Network)",
+            skillTitle: "Office Chat",
             skillDescription: "This is a social network which can be used as a office chat. A minimalistic design will not make employers spend too much time scrolling each-others pages and news feed"
         },
         {
