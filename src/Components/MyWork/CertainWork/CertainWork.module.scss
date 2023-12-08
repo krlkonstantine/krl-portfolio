@@ -10,6 +10,13 @@
   padding: 30px 25px;
   background-color: $secondaryBackgroungColor;
 
+  @media screen and (max-width: 768px) {
+    width: 400px;
+  }
+  @media screen and (max-width: 470px) {
+    width: 330px;
+  }
+
   &:hover {
     border: 1px solid $primaryColor;
     background-color: $basicBackgroungColor;
