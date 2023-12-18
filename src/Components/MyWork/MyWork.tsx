@@ -5,6 +5,7 @@ import {CategoryTitle} from "../common/CategoryTitle/CategoryTitle";
 import todolistImg from "../../assets/img/todolistImg.jpg"
 import rickMorty from "../../assets/img/rickMorty.jpg"
 import flashCards from "../../assets/img/flashcards.jpg"
+import itachi from "../../assets/img/itachi_pic.jpg"
 import social from "../../assets/img/social.jpg"
 import {Zoom} from "react-awesome-reveal";
 
@@ -36,6 +37,16 @@ export const MyWork = () => {
         {
             key: 3,
             style: {
+                backgroundImage: `url(${itachi})`,
+            },
+            workImg: `úrl(${itachi})`,
+            workAddress: "https://character-edit.vercel.app/en",
+            skillTitle: "RPG Character Edit",
+            skillDescription: "An SPA through which users can edit characters in an abstract RPG game. The character can be exported and used by somebody else. Two languages available"
+        },
+        {
+            key: 4,
+            style: {
                 backgroundImage: `url(${social})`,
             },
             workImg: `úrl(${social})`,
@@ -44,7 +55,7 @@ export const MyWork = () => {
             skillDescription: "This is a social network which can be used as a office chat. A minimalistic design will not make employers spend too much time scrolling each-others pages and news feed"
         },
         {
-            key: 4,
+            key: 5,
             style: {
                 backgroundImage: `url(${todolistImg})`
             },
