@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/krl-portfolio/static/css/main.20e35dc4.css",
-    "main.js": "/krl-portfolio/static/js/main.63ca581b.js",
+    "main.js": "/krl-portfolio/static/js/main.879f0472.js",
     "static/js/787.0d73afc2.chunk.js": "/krl-portfolio/static/js/787.0d73afc2.chunk.js",
     "static/media/aboutMe_pic.jpeg": "/krl-portfolio/static/media/aboutMe_pic.074a14bbb08f889e5565.jpeg",
+    "static/media/itachi_pic.jpg": "/krl-portfolio/static/media/itachi_pic.6210a73180bc241ca815.jpg",
     "static/media/rickMorty.jpg": "/krl-portfolio/static/media/rickMorty.15065845c8e0ab6d503c.jpg",
     "static/media/react_logo.png": "/krl-portfolio/static/media/react_logo.52610ecf5d6e21fe0347.png",
     "static/media/material_ui_logo.jpg": "/krl-portfolio/static/media/material_ui_logo.2617e2dd3524c3a4f3d2.jpg",
@@ -31,11 +32,11 @@
     "static/media/tailwind_logo.svg": "/krl-portfolio/static/media/tailwind_logo.03fdecbfd26561a058e76b84d95184a7.svg",
     "static/media/menu_icon.svg": "/krl-portfolio/static/media/menu_icon.317bc50c92894bf177b7fef280dcd505.svg",
     "main.20e35dc4.css.map": "/krl-portfolio/static/css/main.20e35dc4.css.map",
-    "main.63ca581b.js.map": "/krl-portfolio/static/js/main.63ca581b.js.map",
+    "main.879f0472.js.map": "/krl-portfolio/static/js/main.879f0472.js.map",
     "787.0d73afc2.chunk.js.map": "/krl-portfolio/static/js/787.0d73afc2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20e35dc4.css",
-    "static/js/main.63ca581b.js"
+    "static/js/main.879f0472.js"
   ]
 }
