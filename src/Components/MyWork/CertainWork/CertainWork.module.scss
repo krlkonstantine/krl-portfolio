@@ -72,10 +72,34 @@
   .certainWorkTitle {
     @include text($basicFontFamily, 33px, 1.2, $basicFontColor, 300);
     margin: 10px 0 10px;
- &:hover{
-   color: $primaryColor;
-   transition: all 0.4s ease-in-out 0s;
- }
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 10px;
+    cursor: pointer;
+
+    a{
+      color: inherit;
+      text-decoration: none;
+      transition: all 0.4s ease-in-out 0s;
+
+      &:hover {
+        color: $primaryColor;
+      }
+    }
+
+
+    .sNetworksLogo {
+      margin-top: -4px;
+      width: 26px;
+      height: 26px;
+      fill: $secondaryFontColor;
+      transition: all 0.4s ease-in-out 0s;
+
+      &:hover {
+        fill: $primaryColor;
+      }
+    }
   }
 
   .certainWorkDescription {

@@ -1,6 +1,6 @@
 import React from 'react';
 import myWorkStyles from './MyWork.module.scss'
-import {CertainWork, WorksType} from "./CertainWork/CertainWork";
+import {CertainWork, WorkType} from "./CertainWork/CertainWork";
 import {CategoryTitle} from "../common/CategoryTitle/CategoryTitle";
 import todolistImg from "../../assets/img/todolistImg.jpg"
 import rickMorty from "../../assets/img/rickMorty.jpg"
@@ -12,17 +12,18 @@ import {Zoom} from "react-awesome-reveal";
 
 export const MyWork = () => {
 
-    const MyWorks: WorksType[] = [
+    const MyWorks: WorkType[] = [
         {
             key: 1,
             style: {
                 backgroundImage: `url(${flashCards})`,
             },
             workImg: `úrl(${flashCards})`,
-            workAddress: "https://rad-youtiao-a972f6.netlify.app",
-            skillTitle: "Flash Cards Learning",
+            deployLink: "https://rad-youtiao-a972f6.netlify.app",
+            skillTitle: "Flashcards Learning",
             skillDescription: "This is a teamwork project for developing a website for learning using flashcards - a quite useful learning method. Stack: React, RTK-Query, Typescript, React hook form, Zod, \n" +
-                "React Router DOM, Storybook, Radix UI, TailWind"
+                "React Router DOM, Storybook, Radix UI, TailWind",
+            gitLink: "https://github.com/DmitriyBarhonov/cards"
         },
         {
             key: 2,
@@ -30,9 +31,10 @@ export const MyWork = () => {
                 backgroundImage: `url(${rickMorty})`
             },
             workImg: `url(${rickMorty})`,
-            workAddress: "https://rickandmorty-konstantine.vercel.app/",
+            deployLink: "https://rickandmorty-konstantine.vercel.app/",
             skillTitle: "Rick and Morty",
-            skillDescription: "That's a small website built on Next.js, showing Rick and Morty characters, locations and episodes. Nice tip: here you can find out which character is still alive. Such a useful information!"
+            skillDescription: "That's a small website built on Next.js, showing Rick and Morty characters, locations and episodes. Nice tip: here you can find out which character is still alive. Such a useful information!",
+            gitLink: "https://github.com/krlkonstantine/Rick_and_Morty__NextJS"
         },
         {
             key: 3,
@@ -40,9 +42,10 @@ export const MyWork = () => {
                 backgroundImage: `url(${itachi})`,
             },
             workImg: `úrl(${itachi})`,
-            workAddress: "https://character-edit.vercel.app/en",
+            deployLink: "https://character-edit.vercel.app/en",
             skillTitle: "RPG Character Edit",
-            skillDescription: "An SPA through which users can edit characters in an abstract RPG game. The character can be exported and used by somebody else. Two languages available"
+            skillDescription: "An SPA through which users can edit characters in an abstract RPG game. The character can be exported and used by somebody else. Two languages available",
+            gitLink: "https://github.com/krlkonstantine/Char_Edit"
         },
         {
             key: 4,
@@ -50,9 +53,10 @@ export const MyWork = () => {
                 backgroundImage: `url(${social})`,
             },
             workImg: `úrl(${social})`,
-            workAddress: "https://krlkonstantine.github.io/Social_Network/",
+            deployLink: "https://krlkonstantine.github.io/Social_Network/",
             skillTitle: "Office Chat",
-            skillDescription: "This is a social network which can be used as a office chat. A minimalistic design will not make employers spend too much time scrolling each-others pages and news feed"
+            skillDescription: "This is a social network which can be used as a office chat. A minimalistic design will not make employers spend too much time scrolling each-others pages and news feed",
+            gitLink: "https://github.com/krlkonstantine/Social_Network"
         },
         {
             key: 5,
@@ -60,9 +64,10 @@ export const MyWork = () => {
                 backgroundImage: `url(${todolistImg})`
             },
             workImg: `url(${todolistImg})`,
-            workAddress: "https://github.com/krlkonstantine/Task-Manager-ToDo-List",
-            skillTitle: "Task Manager (Todo List)",
-            skillDescription: "A good task manager to boost your productivity. You can add new lists of tasks, delete and edit your tasks as you wish."
+            deployLink: "https://github.com/krlkonstantine/Task-Manager-ToDo-List",
+            skillTitle: "Task Manager",
+            skillDescription: "A good task manager to boost your productivity. You can add new lists of tasks, delete and edit your tasks as you wish",
+            gitLink: "https://github.com/krlkonstantine/Task-Manager-ToDo-List"
         }
     ]
     return (
@@ -75,9 +80,10 @@ export const MyWork = () => {
                             <CertainWork key={certainWork.key}
                                          style={certainWork.style}
                                          workImg={certainWork.workImg}
-                                         workAddress={certainWork.workAddress}
+                                         deployLink={certainWork.deployLink}
                                          skillTitle={certainWork.skillTitle}
-                                         skillDescription={certainWork.skillDescription}/>
+                                         skillDescription={certainWork.skillDescription}
+                                         gitLink={certainWork.gitLink}/>
                         </Zoom>
                     )}
                 </div>
