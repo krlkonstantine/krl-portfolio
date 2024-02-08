@@ -82,6 +82,7 @@ export const MyWork = () => {
             gitLink: "https://github.com/krlkonstantine/Task-Manager-ToDo-List"
         }
     ]
+
     return (
         <div id="myProjects" className={myWorkStyles.mainContainer}>
             <div className={myWorkStyles.worksCategoryContainer}>
