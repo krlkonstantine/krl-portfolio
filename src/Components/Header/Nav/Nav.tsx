@@ -1,7 +1,7 @@
 import React from 'react';
 import nStyle from './Nav.module.scss'
 import {Link, animateScroll as scroll} from "react-scroll";
-import css from "./Nav.module.scss"
+import {DownloadFileButton} from "../../common/CV_download/CVDownload";
 
 
 export const Nav = () => {
@@ -52,6 +52,7 @@ export const Nav = () => {
                 className={nStyle.navBarLink}
                 offset={-50}
             >Contact</Link>
+            <DownloadFileButton/>
             {/*<a className={nStyle.navBarLink} href="#mySkills">Skills</a>*/}
         </div>
     );
