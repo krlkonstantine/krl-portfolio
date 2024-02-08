@@ -9,7 +9,8 @@ export const DownloadFileButton = () => {
         const downloadLink = document.createElement('a');
         downloadLink.href = CVPath;
         downloadLink.download = 'Konstantine_Kornitsel_CV.pdf';
-
+        downloadLink.rel = 'noopener noreferrer'
+        
         document.body.appendChild(downloadLink);
 
         downloadLink.click();
