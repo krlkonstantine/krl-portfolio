@@ -16,9 +16,9 @@
     align-items: center;
     background-color: $secondaryBackgroungColor;
     position: absolute;
-    right: 0px;
+    right: 0;
     left: 0;
-    top: 0px;
+    top: 0;
     height: 150px;
     padding: 12px;
     transform: translate(0, -150px);
@@ -49,11 +49,12 @@
     }
   }
 
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 460px) {
     display: none;
   }
+
   .show {
-    transform: translate(0,0);
+    transform: translate(0, 0);
     height: 150px;
   }
 
@@ -66,7 +67,7 @@
     right: 20px;
     z-index: 1;
 
-    .menuIcon{
+    .menuIcon {
       fill: $primaryColor;
       z-index: 2;
       width: 32px;

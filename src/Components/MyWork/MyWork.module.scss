@@ -1,8 +1,6 @@
-
 @import "../common/styles/variables";
 
 .mainContainer {
-  //background-color: $basicBackgroungColor;
   padding: 30px 0;
 
   .worksCategoryContainer {
@@ -16,7 +14,7 @@
 
     .workContainer {
       width: 100%;
-      margin: 30px 0 30px 0 ;
+      margin: 30px 0 30px 0;
       display: flex;
       flex-wrap: wrap;
       align-items: flex-start;
@@ -25,7 +23,7 @@
       @media screen and (max-width: 793px) {
         justify-content: center;
         width: 70%;
-        margin: 20px 0 20px 0 ;
+        margin: 20px 0 20px 0;
 
       }
     }
