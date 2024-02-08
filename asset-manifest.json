@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/krl-portfolio/static/css/main.278f1bb6.css",
-    "main.js": "/krl-portfolio/static/js/main.1c6e8304.js",
+    "main.js": "/krl-portfolio/static/js/main.5a19be04.js",
     "static/js/787.0d73afc2.chunk.js": "/krl-portfolio/static/js/787.0d73afc2.chunk.js",
     "static/media/aboutMe_pic.jpeg": "/krl-portfolio/static/media/aboutMe_pic.074a14bbb08f889e5565.jpeg",
     "static/media/itachi_pic.jpg": "/krl-portfolio/static/media/itachi_pic.6210a73180bc241ca815.jpg",
@@ -33,11 +33,11 @@
     "static/media/tailwind_logo.svg": "/krl-portfolio/static/media/tailwind_logo.03fdecbfd26561a058e76b84d95184a7.svg",
     "static/media/menu_icon.svg": "/krl-portfolio/static/media/menu_icon.317bc50c92894bf177b7fef280dcd505.svg",
     "main.278f1bb6.css.map": "/krl-portfolio/static/css/main.278f1bb6.css.map",
-    "main.1c6e8304.js.map": "/krl-portfolio/static/js/main.1c6e8304.js.map",
+    "main.5a19be04.js.map": "/krl-portfolio/static/js/main.5a19be04.js.map",
     "787.0d73afc2.chunk.js.map": "/krl-portfolio/static/js/787.0d73afc2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.278f1bb6.css",
-    "static/js/main.1c6e8304.js"
+    "static/js/main.5a19be04.js"
   ]
 }
