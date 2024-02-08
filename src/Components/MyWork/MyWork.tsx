@@ -7,12 +7,24 @@ import rickMorty from "../../assets/img/rickMorty.jpg"
 import flashCards from "../../assets/img/flashcards.jpg"
 import itachi from "../../assets/img/itachi_pic.jpg"
 import social from "../../assets/img/social.jpg"
+import incta from "../../assets/img/inctagram.jpeg"
 import {Zoom} from "react-awesome-reveal";
 
 
 export const MyWork = () => {
 
     const MyWorks: WorkType[] = [
+        {
+            key: 6,
+            style: {
+                backgroundImage: `url(${incta})`,
+            },
+            workImg: `úrl(${incta})`,
+            deployLink: "https://inctagram-front.vercel.app/",
+            skillTitle: "Inctagram",
+            skillDescription: "This is a social network, offering Instagram functionality. Stack: React, Next.js, Redux Toolkit, Typescript, Radix UI, i18n, Formik, Yup,Storybook",
+            gitLink: "https://github.com/inctagramProd/Inctagram__front"
+        },
         {
             key: 1,
             style: {

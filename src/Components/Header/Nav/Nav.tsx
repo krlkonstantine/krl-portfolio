@@ -55,17 +55,7 @@ export const Nav = () => {
                 className={nStyle.navBarLink}
                 offset={-50}
             >Contact</Link>
-            <Link
-                to="https://drive.google.com/drive/folders/1KCE75Blka77n0zubW6IXzAaYhjIQRTIS?usp=sharing"
-                duration={500}
-                delay={1000}
-                //activeStyle={{color:"#28e98c",textDecoration:"none",fontSize:18}}
-                activeClass="activeLink"
-                className={nStyle.navBarLink}
-                offset={-50}
-            >Get CV.pdf</Link>
             <DownloadFileButton/>
-            {/*<a className={nStyle.navBarLink} href="#mySkills">Skills</a>*/}
         </div>
     );
 };
