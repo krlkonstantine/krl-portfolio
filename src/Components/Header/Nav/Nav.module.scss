@@ -30,7 +30,6 @@
     font-weight: 300;
 
 
-
     &:hover {
       font-size: 18px;
       text-decoration: none;
@@ -40,12 +39,11 @@
     }
 
 
-
   }
 
-@media screen and (max-width: 400px) {
-  display: none;
-}
+  @media screen and (max-width: 460px) {
+    display: none;
+  }
 
 }
 

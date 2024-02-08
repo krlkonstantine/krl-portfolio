@@ -2,7 +2,6 @@
 
 .mainHome {
   height: 100vh;
-  //background-color: $basicBackgroungColor;
   position: relative;
 
 
@@ -92,7 +91,7 @@
       z-index: 1;
       @media screen and (max-width: 1143px) {
         .greetingImgContainer {
-          margin-top: 50px;
+          margin-top: 30px;
         }
       }
 
@@ -121,10 +120,19 @@
         }
       }
     }
+
+    @media screen and (max-width: 981px) {
+      padding-top: 100px;
+      height: auto;
+      align-items: flex-start;
+      gap: 20px;
+      margin-bottom: 50px;
+    }
+
   }
 
-  @media screen and (max-width: 400px) {
-    padding-top: 70px;
+  @media screen and (max-width: 981px) {
+    height: auto;
   }
 }
 
