@@ -18,7 +18,7 @@
 
 
     .greetingTextContainer {
-      width: 470px;
+      width: 35vw;
       height: auto;
       color: $basicFontColor;
       background-color: $basicBackgroungColor;
@@ -29,6 +29,10 @@
       &:hover {
         border: 1px solid $primaryColor;
         transition: all 0.4s ease-in-out 0s;
+      }
+
+      @media screen and (max-width: 774px) {
+        width: 470px;
       }
 
       @media screen and (max-width: 518px) {
@@ -79,7 +83,7 @@
       }
 
       .shortPrestext {
-        padding-left: 25px;
+        padding: 0 24px;
         font-weight: 300;
         font-family: $secondaryFontFamily;
         color: $secondaryFontColor;
@@ -97,8 +101,10 @@
 
       .myImg {
         border-radius: 10px;
-        width: 300px;
-        height: 400px;
+        width: 24vw;
+        min-width: 300px;
+        height: 32vw;
+        min-height: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
