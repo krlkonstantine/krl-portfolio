@@ -21,7 +21,7 @@ export const MyWork = () => {
             },
             workImg: `úrl(${incta})`,
             deployLink: "https://inctagram-front.vercel.app/",
-            skillTitle: "Inctagram",
+            skillTitle: "PicPortal",
             skillDescription: "This is a social network, offering Instagram functionality. Stack: React, Next.js, Redux Toolkit, Typescript, Radix UI, i18n, Formik, Yup,Storybook",
             gitLink: "https://github.com/inctagramProd/Inctagram__front"
         },
@@ -32,7 +32,7 @@ export const MyWork = () => {
             },
             workImg: `úrl(${flashCards})`,
             deployLink: "https://rad-youtiao-a972f6.netlify.app",
-            skillTitle: "Flashcards Learning",
+            skillTitle: "BrainBoost",
             skillDescription: "This is a teamwork project for developing a website for learning using flashcards - a quite useful learning method. Stack: React, RTK-Query, Typescript, React hook form, Zod, \n" +
                 "React Router DOM, Storybook, Radix UI, TailWind",
             gitLink: "https://github.com/DmitriyBarhonov/cards"
@@ -55,7 +55,7 @@ export const MyWork = () => {
             },
             workImg: `úrl(${itachi})`,
             deployLink: "https://character-edit.vercel.app/en",
-            skillTitle: "RPG Character Edit",
+            skillTitle: "HeroForge",
             skillDescription: "An SPA through which users can edit characters in an abstract RPG game. The character can be exported and used by somebody else. Two languages available",
             gitLink: "https://github.com/krlkonstantine/Char_Edit"
         },
@@ -77,7 +77,7 @@ export const MyWork = () => {
             },
             workImg: `url(${todolistImg})`,
             deployLink: "https://github.com/krlkonstantine/Task-Manager-ToDo-List",
-            skillTitle: "Task Manager",
+            skillTitle: "TaskHub",
             skillDescription: "A good task manager to boost your productivity. You can add new lists of tasks, delete and edit your tasks as you wish",
             gitLink: "https://github.com/krlkonstantine/Task-Manager-ToDo-List"
         }

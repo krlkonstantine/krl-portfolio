@@ -24,7 +24,14 @@ export const Home = (props: AboutMePropsType) => {
                     <h1>My name is <span>Konstantine</span></h1>
                     <p className={homeStyle.shortPrestext}>
                         <Typewriter delay={30} random={50} speed={60}
-                                    text={"I'm a Frontend developer, working with React-Redux"}/>
+                                    text={"I'm a Frontend developer, working with React-Redux. Hi, I am a frontend developer with experience in creating\n" +
+                                        "SPA using React & RTK (+Query) and TypeScript.\n" +
+                                        "I'm an effective team player with strong interpersonal skills,\n" +
+                                        "always looking forward to improving my expertise.\n" +
+                                        "My next professional goal is to master React Native\n" +
+                                        "and Angular. I have proven strengths in organizational skills,\n" +
+                                        "effective management and responsibility. Open to your\n" +
+                                        "suggestions."}/>
                     </p>
                 </div>
 
