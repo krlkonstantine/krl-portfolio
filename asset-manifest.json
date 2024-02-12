@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/krl-portfolio/static/css/main.2001e043.css",
+    "main.css": "/krl-portfolio/static/css/main.6a2f1dff.css",
     "main.js": "/krl-portfolio/static/js/main.195ef627.js",
     "static/js/787.0d73afc2.chunk.js": "/krl-portfolio/static/js/787.0d73afc2.chunk.js",
     "static/media/aboutMe_pic.jpeg": "/krl-portfolio/static/media/aboutMe_pic.074a14bbb08f889e5565.jpeg",
@@ -33,12 +33,12 @@
     "static/media/js_logo.svg": "/krl-portfolio/static/media/js_logo.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "static/media/tailwind_logo.svg": "/krl-portfolio/static/media/tailwind_logo.03fdecbfd26561a058e76b84d95184a7.svg",
     "static/media/menu_icon.svg": "/krl-portfolio/static/media/menu_icon.317bc50c92894bf177b7fef280dcd505.svg",
-    "main.2001e043.css.map": "/krl-portfolio/static/css/main.2001e043.css.map",
+    "main.6a2f1dff.css.map": "/krl-portfolio/static/css/main.6a2f1dff.css.map",
     "main.195ef627.js.map": "/krl-portfolio/static/js/main.195ef627.js.map",
     "787.0d73afc2.chunk.js.map": "/krl-portfolio/static/js/787.0d73afc2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2001e043.css",
+    "static/css/main.6a2f1dff.css",
     "static/js/main.195ef627.js"
   ]
 }
